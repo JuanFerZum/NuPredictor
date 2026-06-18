@@ -1,0 +1,10 @@
+PEOE_VSA2
+SMR_VSA3
+SMR_VSA6
+SMR_VSA10
+TPSA
+VSA_EState2
+fr_NH0
+SlogP_VSA1
+NOCount
+fr_allylic_oxid
