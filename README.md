@@ -11,8 +11,9 @@ __Python Libraries__
 - python-weka-wrapper3 https://fracpete.github.io/python-weka-wrapper3/install.html
   - Summary
     - Install Microsoft Visual C++ v14 Redistributable from `https://aka.ms/vc14/vc_redist.x64.exe`
-    - Run the commands `pip install setuptools wheel` & `pip install python_weka_wrapper3[plots]` on the command window, after installing Python3
+    - Run the commands `py -m pip install setuptools wheel` & `py -m pip install python_weka_wrapper3[plots]` on the command window, after installing Python3
 - Rdkit https://www.rdkit.org/docs/Install.html
+  - or run the command `py -m pip install rdkit` on the command window, after installing Python3
 
 __Applications__
 - Python3
