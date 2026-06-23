@@ -9,16 +9,21 @@ __Python Libraries__
 - OpenBabel https://openbabel.org/docs/UseTheLibrary/PythonInstall.html
   - or run the command `py -m pip install -U openbabel` on the command window, after installing Python3
 - python-weka-wrapper3 https://fracpete.github.io/python-weka-wrapper3/install.html
+  - Summary
+    - Install Microsoft Visual C++ v14 Redistributable from `https://aka.ms/vc14/vc_redist.x64.exe`
+    - Run the commands `pip install setuptools wheel` & `pip install python_weka_wrapper3[plots]` on the command window, after installing Python3
 - Rdkit https://www.rdkit.org/docs/Install.html
 
 __Applications__
 - Python3
-- ToMoCoMD 
+- ToMoCoMD
+- Microsoft Visual C++ v14 Redistributable
 ## Setup (Before the first use) 
 1. Clone the repository files or download them as a zip file and extract it.
-2. Install Python 3 from https://www.python.org/downloads/ if it is not installed already.
-3. Install all libraries from their respective links if they are not installed already.
-4. Download ToMoCoMD QuBiLs-MIDAS Command Line Interface (CLI) and Software library folder from http://tomocomd.com/software/qubils-midas. Extract or copy said files in the ToMoCoMD Folder. Avoid changing or moving the files already present in the ToMoCoMD folder.
+2. Install Python 3 from `https://www.python.org/downloads/` if it is not installed already.
+3. Install Microsoft Visual C++ v14 Redistributable from `https://aka.ms/vc14/vc_redist.x64.exe` if it is not installed already.
+4. Install all libraries from their respective links if they are not installed already.
+5. Download ToMoCoMD QuBiLs-MIDAS Command Line Interface (CLI) and Software library folder from http://tomocomd.com/software/qubils-midas. Extract or copy said files in the ToMoCoMD Folder. Avoid changing or moving the files already present in the ToMoCoMD folder.
 ## Instructions
 1. Add the input molecules' file.
     - If the input is a ".sdf" file, place it in the /ToMoCoMD/chemical_datasets directory with the name "to_predict.sdf".
