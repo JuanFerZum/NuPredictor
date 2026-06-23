@@ -24,6 +24,43 @@ __Applications__
     - There are sample files in the main directory (to_predict.smiles) and the /ToMoCoMD/chemical_datasets directory (to_predict.sdf), __make sure to erase them when adding your own file.__
 3. Run the NuPredictor.py program.
 4. The molecules' name and predicted nucleophilicity are available in the "predicted_ensamble.csv" file at the main directory.
+## Recommended repository structure
+```
+NuPredictor/
+├── Ambit/
+│   └── example-ambit-appdomain-jar-with-dependencies.jar
+├── models/                        # pre-trained Weka models
+│   ├── ensamble.model
+│   ├── ensamble.txt
+│   ├── N_1.model
+│   ├── N_1.txt
+│   ├── N_2.model
+│   ├── N_2.txt
+│   ├── N_3.model
+│   ├── N_3.txt
+│   ├── N_4.model
+│   ├── N_4.txt
+│   ├── N_5.model
+│   ├── N_5.txt
+│   ├── N_6.model
+│   ├── N_6.txt
+├── ToMoCoMD/
+│   ├── Calculation/
+│   ├── chemical_datasets/
+│       └── to_predict.sdf         # Input file: Replace with own .sdf file to predict or erase
+│   ├── lib/                       # download manually
+│   ├── headings.txt
+│   ├── tomocomd_qubils.in
+│   └── ToMoCoMD-CARDD_CLI.jar     # download manually
+├── Nupredictor.py
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── model_training.csv             # training descriptors
+├── rdkit_descriptors.txt     
+└── to_predict.smiles              # Input file: Replace with own .smiles file to predict or erase
+```
+
 ## References
 - The Pandas Develompent Team. Pandas-Dev/Pandas: Pandas. Zenodo. Zenodo February 2020. https://doi.org/10.5281/zenodo.3509134.
 - Harris, C. R.; Millman, K. J.; van der Walt, S. J.; Gommers, R.; Virtanen, P.; Cournapeau, D.; Wieser, E.; Taylor, J.; Berg, S.; Smith, N. J.; Kern, R.; Picus, M.; Hoyer, S.; van Kerkwijk, M. H.; Brett, M.; Haldane, A.; del Río, J. F.; Wiebe, M.; Peterson, P.; Gérard-Marchant, P.; Sheppard, K.; Reddy, T.; Weckesser, W.; Abbasi, H.; Gohlke, C.; Oliphant, T. E. Array Programming with NumPy. Nature. 2020. https://doi.org/10.1038/s41586-020-2649-2.
