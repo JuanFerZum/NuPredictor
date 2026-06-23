@@ -4,8 +4,10 @@ Noncommercial Python application for Mayr's Nucleophilicity Prediction
 ### Software
 __Python Libraries__
 - Pandas https://pandas.pydata.org/docs/getting_started/install.html
+  - or run the command `py -m pip install pandas` on the command window, after installing Python3
 - Numpy https://numpy.org/install/
-- OpenBabel https://openbabel.org/wiki/Category:Installation
+- OpenBabel https://openbabel.org/docs/UseTheLibrary/PythonInstall.html
+  - or run the command `py -m pip install -U openbabel` on the command window, after installing Python3
 - python-weka-wrapper3 https://fracpete.github.io/python-weka-wrapper3/install.html
 - Rdkit https://www.rdkit.org/docs/Install.html
 
