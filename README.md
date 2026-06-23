@@ -45,7 +45,6 @@ NuPredictor/
 │   ├── N_6.model
 │   ├── N_6.txt
 ├── ToMoCoMD/
-│   ├── Calculation/
 │   ├── chemical_datasets/
 │       └── to_predict.sdf         # Input file: Replace with own .sdf file to predict or erase
 │   ├── lib/                       # download manually
