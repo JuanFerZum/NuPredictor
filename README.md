@@ -18,9 +18,12 @@ __Applications__
 3. Install all libraries from their respective links if they are not installed already.
 4. Download ToMoCoMD QuBiLs-MIDAS Command Line Interface (CLI) and Software library folder from http://tomocomd.com/software/qubils-midas. Extract or copy said files in the ToMoCoMD Folder. Avoid changing or moving the files already present in the ToMoCoMD folder.
 ## Instructions
-1. Add the input molecules' file. If the input is a .sdf file, place it in the /ToMoCoMD/chemical_datasets directory with the name "to_predict.sdf". If the input is an .sdf file, place it in the main directory with the name "to_predict.smile" (__only 1 option is required__). There is a test file in the /ToMoCoMD/chemical_datasets directory, __make sure to erase it when adding your own file.__
-2. Run the NuPredictor.py program.
-3. The molecules' name and predicted nucleophilicity are available in the "predicted_ensamble.csv" file at the main directory.
+1. Add the input molecules' file.
+    - If the input is a ".sdf" file, place it in the /ToMoCoMD/chemical_datasets directory with the name "to_predict.sdf".
+    - If the input is a ".smiles file", place it in the main directory with the name "to_predict.smile" (__only 1 option is required__).
+    - There are sample files in the main directory (to_predict.smiles) and the /ToMoCoMD/chemical_datasets directory (to_predict.sdf), __make sure to erase them when adding your own file.__
+3. Run the NuPredictor.py program.
+4. The molecules' name and predicted nucleophilicity are available in the "predicted_ensamble.csv" file at the main directory.
 ## References
 - The Pandas Develompent Team. Pandas-Dev/Pandas: Pandas. Zenodo. Zenodo February 2020. https://doi.org/10.5281/zenodo.3509134.
 - Harris, C. R.; Millman, K. J.; van der Walt, S. J.; Gommers, R.; Virtanen, P.; Cournapeau, D.; Wieser, E.; Taylor, J.; Berg, S.; Smith, N. J.; Kern, R.; Picus, M.; Hoyer, S.; van Kerkwijk, M. H.; Brett, M.; Haldane, A.; del Río, J. F.; Wiebe, M.; Peterson, P.; Gérard-Marchant, P.; Sheppard, K.; Reddy, T.; Weckesser, W.; Abbasi, H.; Gohlke, C.; Oliphant, T. E. Array Programming with NumPy. Nature. 2020. https://doi.org/10.1038/s41586-020-2649-2.
