@@ -1,30 +1,34 @@
 # NuPredictor
-Noncommercial Python application for Mayr's Nucleophilicity Prediction
+Noncommercial Python application for Mayr's Nucleophilicity Prediction for Windows & Linux operating systems.
 ## Requisites
 ### Software
-__Python Libraries__
+#### Python Libraries
 - Pandas https://pandas.pydata.org/docs/getting_started/install.html
-  - or run the command `py -m pip install pandas` on the command window, after installing Python3
 - Numpy https://numpy.org/install/
 - OpenBabel https://openbabel.org/docs/UseTheLibrary/PythonInstall.html
-  - or run the command `py -m pip install -U openbabel` on the command window, after installing Python3
 - python-weka-wrapper3 https://fracpete.github.io/python-weka-wrapper3/install.html
-  - Summary
-    - Install Microsoft Visual C++ v14 Redistributable from `https://aka.ms/vc14/vc_redist.x64.exe`
-    - Run the commands `py -m pip install setuptools wheel` & `py -m pip install python_weka_wrapper3[plots]` on the command window, after installing Python3
 - Rdkit https://www.rdkit.org/docs/Install.html
-  - or run the command `py -m pip install rdkit` on the command window, after installing Python3
-
-__Applications__
+##### Quick Libraries Installation for Windows
+Python3 must be previously installed from `https://www.python.org/downloads/` if it is not installed already.
+- Pandas: Run the command `py -m pip install pandas` on the command window.
+- Numpy: Run the command `py -m pip install numpy` on the command window.
+- OpenBabel: Run the command `py -m pip install -U openbabel` on the command window.
+- python-weka-wrapper3:
+  - Install OpenJDK as instructed in https://fracpete.github.io/python-weka-wrapper3/install.html in the section "Prerequisites for all platforms"
+  - Install Microsoft Visual C++ Redistributable (X64 version) from https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version
+  - Run the commands `py -m pip install setuptools wheel` & `py -m pip install python_weka_wrapper3[plots]` on the command window.
+- Rdkit: Run the command `py -m pip install rdkit` on the command window.
+#### Applications
 - Python3
 - ToMoCoMD
 - Microsoft Visual C++ v14 Redistributable
+- OpenJDK
 ## Setup (Before the first use) 
 1. Clone the repository files or download them as a zip file and extract it.
 2. Install Python 3 from `https://www.python.org/downloads/` if it is not installed already.
-3. Install Microsoft Visual C++ v14 Redistributable from `https://aka.ms/vc14/vc_redist.x64.exe` if it is not installed already.
-4. Install all libraries from their respective links if they are not installed already.
-5. Download ToMoCoMD QuBiLs-MIDAS Command Line Interface (CLI) and Software library folder from http://tomocomd.com/software/qubils-midas. Extract or copy said files in the ToMoCoMD Folder. Avoid changing or moving the files already present in the ToMoCoMD folder.
+3. Install all libraries as instructed in the `Python Libraries` section, if they are not installed already.
+4. Download `ToMoCoMD QuBiLs-MIDAS Command Line Interface (CLI)` and `Software library` folder from http://tomocomd.com/software/qubils-midas. Extract or copy said files in the ToMoCoMD Folder. Avoid changing or moving the files already present in the ToMoCoMD folder.
+5. Reboot the system to finish all the installations.
 ## Instructions
 1. Add the input molecules' file.
     - If the input is a ".sdf" file, place it in the /ToMoCoMD/chemical_datasets directory with the name "to_predict.sdf".
