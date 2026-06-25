@@ -32,7 +32,7 @@ Python3 must be previously installed from `https://www.python.org/downloads/` if
 ## Instructions
 1. Add the input molecules' file.
     - If the input is a ".sdf" file, place it in the /ToMoCoMD/chemical_datasets directory with the name "to_predict.sdf".
-    - If the input is a ".smiles file", place it in the main directory with the name "to_predict.smile" (__only 1 option is required__).
+    - If the input is a ".smiles file", place it in the main directory with the name "to_predict.smiles" (__only 1 option is required__).
     - There are sample files in the main directory (to_predict.smiles) and the /ToMoCoMD/chemical_datasets directory (to_predict.sdf), __make sure to erase them when adding your own file.__
 3. Run the NuPredictor.py program.
 4. The molecules' name and predicted nucleophilicity are available in the "predicted_ensamble.csv" file at the main directory.
