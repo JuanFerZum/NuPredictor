@@ -19,7 +19,7 @@ keywords:
 license: MIT
 version: 1.0.1
 date-released: 2026-07-01
-repository-code: "https://github.com/jrmorausfq/pIC50_predictor-acetylcholinesterase"
+repository-code: "https://github.com/JuanFerZum/NuPredictor"
 url: "https://github.com/JuanFerZum/NuPredictor"
 Zenodo:
 Juan F. Santos. NuPredictor. Version 1.0.1. Zenodo. https://doi.org/XX.XXXX/zenodo.XXXXXXXX
