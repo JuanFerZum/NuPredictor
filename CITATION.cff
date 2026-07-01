@@ -3,10 +3,10 @@ message: "If you use this software, please cite it as below."
 title: "NuPredictor"
 type: software
 authors:
-- family-names: "Mora"
-  given-names: "José R"
-- family-names: "Santos"
-  given-names: "Juan F"
+  - family-names: "Mora"
+    given-names: "José R"
+  - family-names: "Santos"
+    given-names: "Juan F"
 abstract: "Python software for Mayr's Nucleophilicity prediction from SDF or SMILES using ToMoCoMD & RDKIT descriptors, AMBIT applicability-domain analysis, and a pre-trained Weka models' ensemble"
 keywords:
   - Nucleophilicity
