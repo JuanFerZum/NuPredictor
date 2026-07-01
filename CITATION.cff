@@ -17,7 +17,7 @@ keywords:
   - RDKIT
   - AMBIT
 license: MIT
-version: v1.0.5
+version: v1.0.0
 date-released: 2026-07-01
 repository-code: "https://github.com/JuanFerZum/NuPredictor"
 url: "https://github.com/JuanFerZum/NuPredictor"
